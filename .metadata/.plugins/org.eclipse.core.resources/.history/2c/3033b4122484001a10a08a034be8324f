@@ -1,0 +1,44 @@
+package labfour;
+
+import java.util.Scanner;
+
+public class labfour {
+	
+	public static void main(String [] args) {
+		
+		Scanner kbd = new Scanner (System.in);
+		
+		
+		System.out.println("Enter an integer");
+		
+		int userInput = kbd.nextInt();
+		System.out.println("Number    Squared    Cubed");
+		System.out.println("======    =======    =====");
+		
+		
+		for(int i = 0; i <= userInput; i++) {
+			
+			System.out.println(userInput);
+			System.out.println(userInput*userInput);
+			System.out.println(userInput*userInput*userInput);
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

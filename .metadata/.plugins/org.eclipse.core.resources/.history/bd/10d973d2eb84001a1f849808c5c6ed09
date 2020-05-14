@@ -1,0 +1,22 @@
+package labsix;
+
+import java.util.Scanner;
+
+public class diceRoller {
+	public static void main(String[]args) {	
+		Scanner kbd = new Scanner(System.in);
+		System.out.println("Enter number of side of the dice:");
+		int numSides = kbd.nextInt();	
+		
+		System.out.println(diceRoll(numSides));
+		
+	}
+
+public static int diceRoll(int numSides) {
+	
+	int dice=(int)(Math.random()*numSides+1);
+	return dice;
+}
+
+
+}

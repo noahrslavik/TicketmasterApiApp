@@ -1,0 +1,47 @@
+package day4basicjava;
+
+import java.util.Scanner;
+
+public class RecursionExample {
+
+	public static void main(String[] args) {
+		int factorialNum;
+		do {
+		Scanner kbd = new Scanner(System.in);
+		factorialNum = kbd.nextInt();
+
+		System.out.println(fibonacci(factorialNum));
+		
+		}while(factorialNum >= 0);
+		System.out.println("Goodbye.");
+		
+		
+		//System.out.println(factorial(factorialNum));
+		//System.out.println(fibonacci(factorialNum));
+
+
+	}
+	private static int factorial(int n) {
+		
+		if(n == 1) {
+			return 1;
+		}else {
+			return n * factorial(n - 1);
+		}
+		
+	}
+	
+	private static int fibonacci(int sequenceNum) {
+		
+		// seed values 0 and 1
+		if(sequenceNum <= 1) {
+			return sequenceNum;
+		}else {
+			return fibonacci(sequenceNum - 1) + fibonacci(sequenceNum - 2);
+		}
+		
+	}
+
+}
+	
+

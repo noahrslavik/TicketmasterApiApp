@@ -1,0 +1,60 @@
+package labsix;
+
+import java.util.Scanner;
+
+public class diceRoller {
+	private static Scanner kbd = new Scanner(System.in);
+	
+	public static void main(String[]args) {	
+		do {
+			int diceOne = rollDice(enterSide());
+			int diceTwo = rollDice(enterSide());
+			isSpecial(1,1);
+			isSpecial(6,6);
+			isSpecial(3,4);
+			System.out.println("You rolled a(n) : " + diceOne + " " + diceTwo);
+		
+		}while(doesUserWantToContinue());
+		sayGoodbye();
+	}
+
+public static int enterSide() {
+	System.out.println("Enter number of side of the dice:");
+	int numSides = kbd.nextInt();	
+	return numSides;
+}
+
+public static void sayGoodbye() {
+	System.out.println("Goodbye, thanks for rolling");
+}
+	
+public static int rollDice(int numSides) {
+	
+	int dice=(int)(Math.random()*numSides+1);
+	return dice;
+}
+
+public static void isSpecial(int roll, int roll2) {
+	if(roll == 1 && roll2 == 1 )
+	{
+		System.out.println("You rolled snake eyes");
+	}
+	else if (roll + roll2 == 7) {
+	System.out.println("You rolled a 7, CRAP(s)!");
+	}
+	else if (roll == 6 && roll2 == 6) {
+		System.out.println("You rolled a boxcar!");
+	}
+	else {
+	System.out.println();	
+		
+	}
+}
+
+
+private static boolean doesUserWantToContinue() {
+	System.out.print("Continue? (y/n): ");
+	return kbd.next().startsWith("y");
+}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PhoneTests" project="lab7" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="PhoneTests" time="0.0" uniqueid="[engine:junit-vintage]/[runner:PhoneTests]">
+    <testcase name="testContainsHyphen" classname="PhoneTests" time="0.0" displayname="testContainsHyphen" uniqueid="[engine:junit-vintage]/[runner:PhoneTests]/[test:testContainsHyphen(PhoneTests)]"/>
+    <testcase name="testPrefixThreeDigits" classname="PhoneTests" time="0.0" displayname="testPrefixThreeDigits" uniqueid="[engine:junit-vintage]/[runner:PhoneTests]/[test:testPrefixThreeDigits(PhoneTests)]"/>
+    <testcase name="testLineNumber" classname="PhoneTests" time="0.0" displayname="testLineNumber" uniqueid="[engine:junit-vintage]/[runner:PhoneTests]/[test:testLineNumber(PhoneTests)]"/>
+    <testcase name="testAreaCode" classname="PhoneTests" time="0.0" displayname="testAreaCode" uniqueid="[engine:junit-vintage]/[runner:PhoneTests]/[test:testAreaCode(PhoneTests)]"/>
+    <testcase name="testContainsNonNumbers" classname="PhoneTests" time="0.0" displayname="testContainsNonNumbers" uniqueid="[engine:junit-vintage]/[runner:PhoneTests]/[test:testContainsNonNumbers(PhoneTests)]"/>
+  </testsuite>
+</testrun>

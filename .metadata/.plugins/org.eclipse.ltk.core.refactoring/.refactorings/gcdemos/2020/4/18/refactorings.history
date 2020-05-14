@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;da5_basicjava&apos; to &apos;day5_basicjava&apos;&#x0D;&#x0A;- Original project: &apos;gcdemos&apos;&#x0D;&#x0A;- Original element: &apos;gcdemos/src/da5_basicjava&apos;&#x0D;&#x0A;- Renamed element: &apos;gcdemos/src/day5_basicjava&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;da5_basicjava&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;da5_basicjava" name="day5_basicjava" qualified="false" references="true" stamp="1588011869936" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,33 @@
+package labsix;
+
+import java.util.Scanner;
+
+public class diceRoller {
+	private static Scanner kbd = new Scanner(System.in);
+	
+	public static void main(String[]args) {	
+		do {
+		System.out.println("Enter number of side of the dice:");
+		int numSides = kbd.nextInt();	
+		
+		System.out.println("You rolled a :" + diceRoll(numSides));
+		}while(doesUserWantToContinue());
+		System.out.println("Goodbye, thanks for rolling");
+	}
+
+public static int diceRoll(int numSides) {
+	
+	int dice=(int)(Math.random()*numSides+1);
+	return dice;
+}
+
+private static boolean doesUserWantToContinue() {
+	System.out.print("Continue? (y/n): ");
+	return kbd.next().startsWith("y");
+}
+
+
+
+
+
+}

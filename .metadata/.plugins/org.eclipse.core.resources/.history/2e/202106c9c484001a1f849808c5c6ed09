@@ -1,0 +1,79 @@
+package stringmethods;
+
+public class LabFive {
+	public static void main (String[]args) {
+		String x = "yES";
+		
+		capatalize(x);
+		wheresWaldo("Where is Waldo");
+		firstThingsFirst("double", "cat");
+		reverse("Noah");
+		soLong("YES","NO");
+		afterMath("This is a mathematical phrase wow");
+		
+	}
+	public static void capatalize(String word) {
+		for(int i = 0; i<word.length(); i++)
+		if (i == 0) {
+			char firstLetter = Character.toUpperCase(word.charAt(0));
+			System.out.print(firstLetter);
+		}
+		else {
+			char nextLetter = Character.toLowerCase(word.charAt(i));
+			System.out.print(nextLetter);
+		}	
+	}
+	
+	public static void wheresWaldo(String phrase) {
+		System.out.println();
+		phrase = phrase.toLowerCase();
+		String waldo = "waldo";
+		int position = phrase.indexOf(waldo);
+		System.out.println(position);		
+	}
+	public static void firstThingsFirst(String a,String b) {
+		String firstA = Character.toString(a.charAt(0));
+		String firstB = Character.toString(b.charAt(0));
+		
+		if(firstA.compareTo(firstB) > 0) {
+			System.out.println(b + " " + a);
+		
+		}
+		else if(firstA.compareTo(firstB) < 0) {
+			System.out.println(a + " " + b);	
+		}
+	}
+	public static void reverse(String s) {
+		for(int i = s.length()-1; i >=0; i--) {
+			System.out.print(s.charAt(i));
+		}
+		
+	}
+	public static void soLong(String a, String b) {
+		System.out.println();
+		if(a.length() > b.length()) {
+			System.out.println(a);
+		
+		}
+		else if(b.length() > a.length()) {
+			System.out.println(b);	
+		}
+		else {
+			System.out.println(a + " " + b);
+		}
+	}
+	public static void afterMath(String phrase) {
+		if(phrase.toLowerCase().contains("math")){
+			int index = phrase.indexOf("math");
+			for(int i = index; i > phrase.length()-1; i++) {
+				System.out.print(phrase.charAt(i));
+			}
+		}
+		else {
+		System.out.println(phrase);		
+		}
+			
+		}
+		
+}
+

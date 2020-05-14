@@ -1,0 +1,25 @@
+INDEX VERSION 1.131+C:\Users\NoahR\Grand Circus Java Projects\.metadata\.plugins\org.eclipse.jdt.core
+3687330437.index
+3872255445.index
+2459567308.index
+3541194910.index
+39645565.index
+3946796104.index
+255619542.index
+331347947.index
+2555046204.index
+3964833873.index
+400854662.index
+3754918430.index
+3228100692.index
+2901864286.index
+1968947691.index
+560809392.index
+3190351547.index
+325607704.index
+261838120.index
+2620941534.index
+1687039413.index
+2606080199.index
+2143599727.index
+2882152731.index

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;labsix.diceRoll.java&apos; to &apos;diceRoller.java&apos;&#x0D;&#x0A;- Original project: &apos;labsix&apos;&#x0D;&#x0A;- Original element: &apos;labsix.diceRoll.java&apos;&#x0D;&#x0A;- Renamed element: &apos;labsix.diceRoller.java&apos;" description="Rename compilation unit &apos;diceRoll.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;labsix{diceRoll.java" name="diceRoller.java" references="false" stamp="1587595328129" version="1.0"/>
+</session>

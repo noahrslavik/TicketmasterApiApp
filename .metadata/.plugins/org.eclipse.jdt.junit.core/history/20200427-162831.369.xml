@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="EmailTests" project="lab7" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="EmailTests" time="0.004" uniqueid="[engine:junit-vintage]/[runner:EmailTests]">
+    <testcase name="testContainsAtSymbol" classname="EmailTests" time="0.002" displayname="testContainsAtSymbol" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testContainsAtSymbol(EmailTests)]"/>
+    <testcase name="testContainsPeriod" classname="EmailTests" time="0.0" displayname="testContainsPeriod" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testContainsPeriod(EmailTests)]"/>
+    <testcase name="testAlphanumeric" classname="EmailTests" time="0.0" displayname="testAlphanumeric" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testAlphanumeric(EmailTests)]"/>
+    <testcase name="testMinLength" classname="EmailTests" time="0.0" displayname="testMinLength" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testMinLength(EmailTests)]"/>
+    <testcase name="testNoSpecialCharacters" classname="EmailTests" time="0.001" displayname="testNoSpecialCharacters" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testNoSpecialCharacters(EmailTests)]"/>
+    <testcase name="testTopLevelDomainMax" classname="EmailTests" time="0.0" displayname="testTopLevelDomainMax" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testTopLevelDomainMax(EmailTests)]"/>
+    <testcase name="testTopLevelDomainMin" classname="EmailTests" time="0.0" displayname="testTopLevelDomainMin" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testTopLevelDomainMin(EmailTests)]"/>
+    <testcase name="testMaxDomainLength" classname="EmailTests" time="0.001" displayname="testMaxDomainLength" uniqueid="[engine:junit-vintage]/[runner:EmailTests]/[test:testMaxDomainLength(EmailTests)]"/>
+  </testsuite>
+</testrun>

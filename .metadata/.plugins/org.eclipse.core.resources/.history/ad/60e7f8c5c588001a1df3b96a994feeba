@@ -1,0 +1,25 @@
+package day5_basicjava;
+
+import java.util.Scanner;
+
+public class ValidatorHelper {
+
+	
+	
+	public static int getInt(Scanner kbd, String prompt) {
+		System.out.print(prompt);
+		boolean isValid = kbd.hasNextInt();
+		while(!isValid) {
+			kbd.nextLine();
+			System.out.println("Oops. That isn't a valid number. Please enter a number without decimals");
+			System.out.print(prompt);
+			isValid = kbd.hasNextInt();
+		}
+		return kbd.nextInt();
+	}
+
+	public static String getString(Scanner kbd, String prompt){
+		System.out.print(prompt);
+		return kbd.nextLine();	}	
+	
+}

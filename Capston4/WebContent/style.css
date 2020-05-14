@@ -1,0 +1,49 @@
+      h1, h2, h3, p {
+      	   text-align: center;
+       }
+	   
+	   .hoverTable{
+	   width:90%;
+	   text-align: center;
+	   }
+td{
+	text-color: white;
+}
+tr{
+	text-color: white;
+}
+
+	input:hover {
+  background-color: blue;
+}
+input[type=number]:focus {
+  background-color: red;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("sapace.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  position: absolute;
+  left: 25%;
+  top: 5%;
+  width: 50%;
+  text-align: center;
+}
+
+.caption span.border {	
+  font-size: 45px;
+  letter-spacing: 3px;
+  text-color: white;
+  text-align: center;
+}

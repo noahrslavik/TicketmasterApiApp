@@ -1,0 +1,77 @@
+package co.grandcircus;
+
+import java.util.Scanner;
+
+public class Assessment {
+	
+	private static Scanner kbd = new Scanner(System.in);
+	
+	public static void main(String[]args) {
+		
+	System.out.println("Enter the current day of class (1 - 50): ");
+	int userInput = kbd.nextInt();
+	
+	if(userInput <= 37 ) {
+		
+		if(userInput <= 6) {
+			System.out.println("The next test topic is Continents");
+			if(userInput == 6) {
+				System.out.println("It is today.");	
+			}
+			else {
+				System.out.println("It is " + Math.abs(6 - userInput));
+			}
+		}
+		else if(userInput > 6 && userInput < 20) {
+			System.out.println("The next topic is Oceans");
+			if(userInput == 20) {
+				System.out.println("It is today.");
+			}
+			else {
+				System.out.println("It is " + Math.abs(20 - userInput));
+			}
+		}
+		else {
+			
+			System.out.println("The next topic is The Solar System");
+			if(userInput == 37) {
+				System.out.println("It is today.");
+			}
+			else {
+				System.out.println("It is " + Math.abs(37 - userInput));
+			}
+		}
+		
+	}	
+	else {
+		System.out.println("There are no more tests.");
+	}
+	
+	System.out.println(dayOfWeek(userInput));
+	
+	}
+	
+
+	
+	public static String dayOfWeek( int input) {
+		if     (input == 1 || input == 6  || input == 11 || input == 16 || input == 21 || input == 26  || input == 31 || input == 36 || input == 41 || input == 46 ){
+			return "Today is Monday.";
+		}
+		else if(input == 2 || input == 7 || input == 12 || input == 17 || input == 22  || input == 27 || input == 32 || input == 37 || input == 42 || input == 47) {
+			return "Today is Tuesday.";
+		}
+		else if(input == 3 || input == 8 || input == 13 || input == 18 || input == 23  || input == 28 || input == 33 || input == 38 || input == 43  || input == 48) {
+			return "Today is Wednesday.";
+		}
+		else if(input == 4 || input == 9 || input == 14 || input == 19 || input == 24  || input == 29 || input == 34 || input == 39 || input == 44 || input == 49){
+			return "Today is Thursday.";
+		}
+		else if(input % 5 == 0) {
+			return "Today is Friday.";
+		}	
+			
+		}
+		
+		
+	}
+}

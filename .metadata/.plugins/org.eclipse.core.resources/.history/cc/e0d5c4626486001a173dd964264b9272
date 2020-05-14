@@ -1,0 +1,31 @@
+package capstone;
+
+import java.util.Scanner;
+
+public class capstoneproject {
+	public static void main(String[] args) {
+		Scanner kbd = new Scanner(System.in);	
+		String input = kbd.nextLine();	
+		
+		String lowerCaseString = input.toLowerCase();
+		char firstLetter;
+		String [] splitWords = lowerCaseString.split(" ");
+		
+		for(int i = 0; i < splitWords.length; i++ ) {
+			firstLetter = splitWords[i].charAt(0);
+			if(firstLetter == 'a' || firstLetter == 'e' || firstLetter == 'i' || firstLetter == 'o' || firstLetter == 'u'){
+				String answerString = splitWords[i] + "way";
+				System.out.println();
+	}
+		else {
+			
+			
+		}
+		}
+		
+		
+	}
+	
+	
+
+}
